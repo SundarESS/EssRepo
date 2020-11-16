@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54450" started-at="2020-11-16T17:27:50Z" finished-at="2020-11-16T17:28:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="54450" started-at="2020-11-16T17:27:50Z" finished-at="2020-11-16T17:28:45Z">
+      <class name="scripts.TestLogin">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:scripts.TestLogin@58651fd0]" name="preCondition" is-config="true" duration-ms="9997" started-at="2020-11-16T17:27:50Z" finished-at="2020-11-16T17:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:scripts.TestLogin@58651fd0]" name="testLoginPage" duration-ms="1833" started-at="2020-11-16T17:28:00Z" finished-at="2020-11-16T17:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.TestLogin@58651fd0]" name="postCondition" is-config="true" duration-ms="826" started-at="2020-11-16T17:28:02Z" finished-at="2020-11-16T17:28:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- scripts.TestLogin -->
+      <class name="scripts.TestForgetMail">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:scripts.TestForgetMail@4520ebad]" name="preCondition" is-config="true" duration-ms="11173" started-at="2020-11-16T17:28:03Z" finished-at="2020-11-16T17:28:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:scripts.TestForgetMail@4520ebad]" name="testLoginPage" duration-ms="1638" started-at="2020-11-16T17:28:14Z" finished-at="2020-11-16T17:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.TestForgetMail@4520ebad]" name="postCondition" is-config="true" duration-ms="425" started-at="2020-11-16T17:28:16Z" finished-at="2020-11-16T17:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- scripts.TestForgetMail -->
+      <class name="scripts.TestAdmin">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:scripts.TestAdmin@5419f379]" name="preCondition" is-config="true" duration-ms="7881" started-at="2020-11-16T17:28:16Z" finished-at="2020-11-16T17:28:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="FAIL" signature="testAdminPage()[pri:2, instance:scripts.TestAdmin@5419f379]" name="testAdminPage" duration-ms="20512" started-at="2020-11-16T17:28:24Z" finished-at="2020-11-16T17:28:44Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//li[contains(@class,'dropdown open')]//a[contains(@class,'dropdown-toggle')]"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESK', ip: '192.168.225.250', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Sundar\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61042}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 652af10d0b45325d4fa0789923173600
+*** Element info: {Using=xpath, value=//li[contains(@class,'dropdown open')]//a[contains(@class,'dropdown-toggle')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[contains(@class,'dropdown open')]//a[contains(@class,'dropdown-toggle')]"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESK', ip: '192.168.225.250', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Sundar\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61042}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 652af10d0b45325d4fa0789923173600
+*** Element info: {Using=xpath, value=//li[contains(@class,'dropdown open')]//a[contains(@class,'dropdown-toggle')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at pages.AdminPage.adminprivileges(AdminPage.java:36)
+at scripts.TestAdmin.testAdminPage(TestAdmin.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminPage -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.TestAdmin@5419f379]" name="postCondition" is-config="true" duration-ms="100" started-at="2020-11-16T17:28:44Z" finished-at="2020-11-16T17:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- scripts.TestAdmin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
